@@ -126,6 +126,7 @@ label {
    letter-spacing: .5px;
    color: rgb(121, 127, 136);
    font-weight: 600;
+   margin-bottom: 2px;
 }
 
 input {
@@ -133,6 +134,14 @@ input {
    height: 40px;
    padding: 10px;
    font-size: 16px;
+   border: 1px solid #E5E7EB;
+   border-radius: 5px;
+}
+
+input:focus {
+   outline: none;
+   border: 1px solid blue;
+   box-shadow: 0 0 5px black;
 }
 
 button {
