@@ -22,9 +22,9 @@
          <p id="random-text-two">Sign up <em>now</em> to get started.</p>
          <p id="random-text-three">You <em>know</em> you want to.</p>
       </div>
-      <form action="/" method="get">
-         <div class="hero">
-            <h1>Let's do this!</h1>
+      <div class="hero">
+         <h1>Let's do this!</h1>
+         <form action="/" method="get" id="sign-up-form"></form>
             <div class="form-columns">
                <ul>
                   <li>
@@ -55,12 +55,13 @@
                   </li>
                </ul>
             </div>
-         </div>
-         <div class="footer">
-            <button type="submit">Create Account</button>
-            <p id="footer-text">Already have an account?<a href="/"> Log in</a></p>
+         </form>
          </div>
       </form>
+      <div class="footer">
+         <button type="submit" form="sign-up-form">Create Account</button>
+         <p id="footer-text">Already have an account?<a href="/"> Log in</a></p>
+      </div>
    </div>
 </body>
 </html>

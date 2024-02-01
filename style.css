@@ -170,10 +170,16 @@ a {
       font-size: 1rem;
       margin-left: 50px;
       margin-right: 50px;
-      height: 35vh;
-      display: flex;
-      flex-direction: column;
-      justify-content: end;
-      padding-bottom: 50px;
+      min-height: 75vh;
+      padding-bottom: 25px;
    }
+
+   .hero {
+      min-height: 75vh;
+   }
+
+   .footer {
+      max-height: 10vh;
+   }
+
 }
